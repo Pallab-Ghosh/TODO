@@ -10,3 +10,13 @@ for (i = 0; i < myNodelist.length; i++) {
   myNodelist[i].appendChild(btn);
 }
 
+// Click on a close button to hide the current list item
+var close = document.getElementsByClassName("close");
+var i;
+
+for (i = 0; i < close.length; i++) {
+  close[i].addEventListener("click",function(e) {
+    var div = this.parentElement;
+    div.style.display = "none";
+  },false)
+}
