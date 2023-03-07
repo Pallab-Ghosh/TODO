@@ -28,9 +28,3 @@ list.addEventListener('click', function(ev) {
     ev.target.classList.toggle('checked');
   }
 });
-
-
-function newElement() {
-  var li = document.createElement("li");
-  var inputValue = document.getElementById("myInput").value;
-  var t = document.createTextNode(inputValue);
