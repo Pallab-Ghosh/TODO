@@ -91,6 +91,22 @@ ul li:nth-child(odd) {
       font-size: 16px;
     }
   
-
+    .addBtn {
+      padding: 10px;
+      width: 25%;
+      background:beige;
+      color:olive;
+      float: left;
+      text-align: center;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+      border-radius: 0;
+    }
+    
+    .addBtn:hover {
+      background-color: #bbb;
+    }
+  
 
 
