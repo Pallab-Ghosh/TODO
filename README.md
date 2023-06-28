@@ -1,5 +1,5 @@
 # TODO
- A basic TODO app using HTNL CSS JAVASCRIPT
+ A basic TODO app using HTML CSS JAVASCRIPT
 
  PROJECT DEMO
  
